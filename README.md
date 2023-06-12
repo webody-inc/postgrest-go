@@ -1,19 +1,19 @@
 # Postgrest GO
 
-[![golangci-lint](https://github.com/supabase/postgrest-go/actions/workflows/golangci.yml/badge.svg)](https://github.com/supabase/postgrest-go/actions/workflows/golangci.yml) [![CodeFactor](https://www.codefactor.io/repository/github/supabase-community/postgrest-go/badge/main?s=101cab44de33934fd85cadcd9a9b535a05791670)](https://www.codefactor.io/repository/github/supabase/postgrest-go/overview/main)
+[![golangci-lint](https://github.com/webody-inc/postgrest-go/actions/workflows/golangci.yml/badge.svg)](https://github.com/webody-inc/postgrest-go/actions/workflows/golangci.yml) [![CodeFactor](https://www.codefactor.io/repository/github/supabase-community/postgrest-go/badge/main?s=101cab44de33934fd85cadcd9a9b535a05791670)](https://www.codefactor.io/repository/github/supabase/postgrest-go/overview/main)
 
 Golang client for [PostgREST](https://postgrest.org). The goal of this library is to make an "ORM-like" restful interface.
 
 ## Documentation
 
-Full documentation can be found [here](https://pkg.go.dev/github.com/supabase/postgrest-go).
+Full documentation can be found [here](https://pkg.go.dev/github.com/webody-inc/postgrest-go).
 
 ### Quick start
 
 Install
 
 ```bash
-go get github.com/supabase/postgrest-go
+go get github.com/webody-inc/postgrest-go
 ```
 
 Usage
@@ -24,7 +24,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/supabase/postgrest-go"
+	"github.com/webody-inc/postgrest-go"
 )
 
 func main() {
