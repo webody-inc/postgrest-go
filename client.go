@@ -59,7 +59,6 @@ type Client struct {
 // TokenAuth sets authorization headers for subsequent requests.
 func (c *Client) TokenAuth(token string) *Client {
 	c.clientTransport.header.Set("Authorization", "Bearer "+token)
-	c.clientTransport.header.Set("apikey", token)
 	return c
 }
 
